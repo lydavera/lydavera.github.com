@@ -1,0 +1,128 @@
+body
+{ 
+	background-color: white;
+	color: black;
+	font-family: sans-serif;
+}
+
+a		{ color: #389808; text-decoration: none; font-weight: bold; }
+a:hover	{ color: black;   text-decoration: none; font-weight: bold; }
+
+#title {
+	width: 770px;
+	height: 72px;
+	margin: 3em auto;
+	margin-bottom: 0.5em;
+	padding: 180px 0 0 30px;
+	background: #5a7313 url(cowfield.jpg);
+	text-align: left;
+	color: white;
+}
+
+#title h1
+{ 
+	font-size: x-large;
+	margin: 0;
+	padding: 0;
+}
+
+#title p
+{ 
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+#nav
+{ 
+	width: 750px;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+
+#nav li
+{ 
+	display: inline;
+	margin: 0 0.7em;
+}
+
+#content {
+	width: 750px;
+	margin: 1em auto;
+}
+
+#content img { margin: 1em }
+
+img.left	{ float: left }
+img.right	{ float: right }
+
+h2, h3, h4, h5, h6 { font-style: italic; margin-left: 5% }
+
+#content h2 { font-size: x-large }
+
+#content h3 { font-size: large }
+
+#content h4 { font-size: normal }
+
+#content p
+{ 
+	text-indent: 2em;
+	text-align: left;
+	margin: 1em 5%;
+}
+
+#content p.right	{ text-align: right }
+
+#content .note h4	{ margin: 0.5em }
+
+#content .note p	{ margin: 0.5em }
+
+#content ul li		{ margin: 1em 7% }
+
+#content ul ul li	{ margin: 0.5em 7% }
+
+#content dl			{ margin: 1em 15% 1em 15% }
+
+#content dl dt
+{ 
+	font-weight: bold;
+	margin-top: 1em;
+}
+
+#content dl dd
+{ 
+	margin: 1em 10%;
+	margin-top: 0;
+	text-align: justify;
+}
+
+#content .note
+{ 
+	border: 5px solid black;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	padding: 2px;
+	margin: 1em 8%;
+	clear: both;
+	background-color: #5a7313;
+	color: black;
+}
+
+#footer
+{ 
+	width: 790px;
+	margin: 0 auto;
+	padding: 5px;
+	text-align: right;
+	font-size: x-small;
+	color: black;
+}
+
+abbr, acronym, .help 
+{ 
+	border-bottom: 1px dashed #CCC;
+	cursor: help;
+}
