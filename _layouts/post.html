@@ -49,7 +49,7 @@ a     { color:            #{{ page.color }}; }
 {{ content }}</div>
 
 <div id="footer">
-Last update on {{ page.authored }}
+Last update on {{ page.date | date: "%A, %B %e, %Y" }}
 </div>
 
 </body>
