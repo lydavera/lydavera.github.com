@@ -48,9 +48,11 @@ a     { color:            #{{ page.color }}; }
 <div id="content">
 {{ content }}</div>
 
+{% if page.date %}
 <div id="footer">
 Last update on {{ page.date | date: "%A, %B %e, %Y" }}
 </div>
+{% endif %}
 
 </body>
 </html>
